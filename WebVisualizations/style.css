@@ -2,27 +2,17 @@ body {
     background-color: lightgrey;
 }
 
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    justify-content: space-between;
-    background-color: white;
-    height: 48px;
-}
-
 .header h1 {
-    float: left;
     background-color: mediumturquoise;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     padding-right: 10px;
     padding-left: 10px;
-    margin-left: 10px;
+    margin: 5px;
 }
 
-.nav-link {
+.navbar-nav {
     background-color: white;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,12 +21,9 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    padding: 30px;
 }
 
 .explanation {
-    display: flex;
-    flex-direction: column;
     background-color: white;
     width: 60%;
     margin: 10px;
@@ -50,7 +37,7 @@ body {
 }
 
 .img_paragraph img {
-    width: 80%;
+    width: 50%;
 }
 
 .img_paragraph p {
@@ -72,11 +59,12 @@ body {
 }
 
 @media (max-width: 600px) {
-    .header {
-    background-color: mediumturquoise;
+
+    .header h1 {
+        background-color: mediumturquoise;
     }
 
-    .nav-link {
+    .navbar-nav {
         background-color: mediumturquoise;
         visibility: hidden;
     }
