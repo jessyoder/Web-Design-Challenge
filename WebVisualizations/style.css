@@ -13,7 +13,6 @@ body {
 }
 
 .navbar-nav {
-    background-color: white;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -43,6 +42,10 @@ body {
 .img_paragraph p {
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.temp_paragraph img {
+    width: 100%;
 }
 
 .visualizations {
