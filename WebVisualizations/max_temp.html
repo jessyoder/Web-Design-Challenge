@@ -3,82 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Bootstrap CSS -->
+    <!-- Link to Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Link to style.css -->
     <link rel="stylesheet" href="style.css">
-    
-    <title>Max Width</title>
+    <title>Max Temp</title>
 </head>
 
 <body>
-    <div class="header">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/index.html">
-                <h1>Latitude</h1></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown"></li>
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                     href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                     Plots</a>
+                      href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                      Visualizations</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/Max_Temp.html">Max Temperature</a>
-                        <a class="dropdown-item" href="#!">Humidity</a>
-                        <a class="dropdown-item" href="#!">Cloudiness</a>
-                        <a class="dropdown-item" href="#!">Wind Speed</a>
+                        <a class="dropdown-item" href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/max_temp.html">Max Temp</a>
+                        <a class="dropdown-item" href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/humidity.html#">Humidity</a>
+                        <a class="dropdown-item" href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/wind_speed.html">Wind Speed</a>
                     </div>
-                </li>
+                  </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#!">Comparison</a>
-                </li>
+                    <a class="nav-link" href="#!">Comparison</a>
+                  </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#!">Data</a>
+                    <a class="nav-link" href="#!">Data</a>
+                  </li>
               </ul>
-            </div>
-          </nav>
-          
-    </div>
+          </div>
+        </nav>
 
-    <div class="container">
-
-        <div class="explanation">
-            <h1>Max Temp</h1>
-            <div class="temp_paragraph">
-                <img src="assets/images/Fig1.png">
-                <p>As expected, the weather becomes significantly warmer
-                    as one approaches the equator (0 degrees latitude). 
-                    It is very interesting to notice that the southern 
-                    hemisphere tends to be warmer this time of year than
-                    the  northern hemisphere. This may be due to the title
-                    of the earth at the time of year this data was gathered.
-                </p>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7" style="background-color:white; margin:10px">
+            <h2>Maximum Temerature Study</h2>
+            <img src="assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
+            <p>
+                As we studied the temperature differences in our cities, we noticed a clear pattern of temperatures
+                being higher as the city's location was closer to the equator and lower as the city's location was
+                further from the equator. This was to be expected.
+            </p>
+            <p>
+                The unexpected result that we noticed was the cities that were located in the southern hemisphere had
+                higher temperatures overall, compared to the cities in the northern hemisphere. A further study would
+                need to be done to figure out the reason for this trend. Depending on the date, for example, the locations 
+                in the southern hemisphere might have been experiencing summer, being closer to the sun based on the tilt 
+                of the earth.
+            </p>
+          </div>
+          <div class="col-md-4" style="background-color:white; margin:10px">
+            <h2>Visualizations</h2>
+            <h6>Maximum Temperature</h6>
+            <a href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/max_temp.html">
+            <img src="assets/images/Fig1.png" class="img-fluid" alt="Responsive image"></a>
+            <h6>Humidity</h6>
+            <a href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/humidity.html#">
+            <img src="assets/images/Fig2.png" class="img-fluid" alt="Responsive image"></a>
+            <h6>Cloudiness</h6>
+            <a href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/cloudiness.html">
+            <img src="assets/images/Fig3.png" class="img-fluid" alt="Responsive image"></a>
+            <h6>Wind Speed</h6>
+            <a href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/wind_speed.html">
+            <img src="assets/images/Fig4.png" class="img-fluid" alt="Responsive image"></a>
+          </div>
         </div>
-        
-        <div class="visualizations">
-            <h1>Visualizations</h1>
-            <a href="file:///C:/Users/shelt/OneDrive/Desktop/DataViz/Projects/Web-Design-Challenge/WebVisualizations/Max_Temp.html">
-                <img src="assets/images/Fig1.png" width="200px" height="150"></a>
-            <a href=""><img src="assets/images/Fig2.png" 
-                width="200px" height="150"></a>
-            <a href=""><img src="assets/images/Fig3.png"
-                width="200px" height="150"></a>
-            <a href=""><img src="assets/images/Fig4.png"
-                width="200px" height="150"></a>
-        </div>
-    </div>  
+      </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
 </body>
-
 </html>
