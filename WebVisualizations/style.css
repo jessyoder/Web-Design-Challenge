@@ -1,93 +1,14 @@
 body {
-    background-color: lightgrey;
+    background-image: url('https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg');
 }
 
-.header h1 {
-    background-color: mediumturquoise;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
+.navbar {
+    background-image: url('https://i.pinimg.com/originals/10/f9/44/10f944389ace361ae00a3fc6b7b16e9e.jpg');
+}
+
+.btn {
     font-weight: bold;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: 5px;
-}
-
-.navbar-nav {
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-.explanation {
-    background-color: white;
-    width: 60%;
-    margin: 10px;
-    padding: 20px;
-}
-
-.explanation h1 {
-    color: mediumturquoise;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-size: 25px;
+    color: gray;
 }
-
-.img_paragraph img {
-    width: 50%;
-}
-
-.img_paragraph p {
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.temp_paragraph img {
-    width: 100%;
-}
-
-.visualizations {
-    background-color: white;
-    width: 40%;
-    margin: 10px;
-    padding: 20px;
-}
-
-.visualizations h1 {
-    color: mediumturquoise;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-@media (max-width: 600px) {
-
-    .header h1 {
-        background-color: mediumturquoise;
-    }
-
-    .navbar-nav {
-        background-color: mediumturquoise;
-        visibility: hidden;
-    }
-
-    .dropdown-menu {
-        visibility: visible;
-    }
-    
-    .container {
-        display: contents;
-    }
-
-    .explanation {
-        width: 100%;
-        margin: 10px;
-    }
-
-    .visualizations {
-        width: 100%;
-    }
-    
-}
-
